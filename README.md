@@ -1,17 +1,22 @@
-# Android-Todo-List-App-with-MVVM-and-Architecture-Components
+Buatlah aplikasi ToDo list. Aplikasi ini dapat menyimpan kegiatan/aktifitas yg akan dilakukan. Berikut deskripsi aplikasi:
+1. CRUD Todo
+2. Todo
+     - Tanggal Dibuat
+     - Tanggal Update
+     - Tanggal jatuh tempo todo
+      - Title
+      - Note Todo
+3. App bisa sort berdasarkan
+     - Tanggal dibuat
+     - Tanggal jatuh tempo
+4. Search by title
+5. Notification 1 jam sebelum jatuh tempo (tidak wajib, nilai bonus)
 
-This is an Android application written in Kotlin to practice one of the architecture models in mobile world which is **MVVM (Model View ViewModel)**.
+Syarat:
+1. Menggunakan Room
+2. MVVM
+3. LiveData
+4. Menggunakan git, wajib melakukan commit setiap pembuatan fitur, agar pengerjaan kalian bisa di track. Wajib
+5. Push ke github + pdf dokumentasi
 
-Components used in the application:
-- AndroidViewModel
-- LiveData
-- Room
-- Kotlin
-- AndroidX
-
-Things which will be added in future:
-- More appealing UI
-- Dagger for dependency injection
-
-The app lets the user create, edit, delete and complete todo items. When the set due date comes, app notifies the user stating the **An item in your list is due.**
-UI is not that appealing as the most focused part of the app is architecture and components behind it.
+Silahkan untuk berkreasi dengan tampilan aplikasi. Bagusnya tampilan dari aplikasi yang dibuat mempengaruhi penilaian. Dokumentasi dalam bentuk pdf, menjelaskan alur aplikasi serta potongan baris kode beserta penjelasan penggunaannya dalam aplikasi.
